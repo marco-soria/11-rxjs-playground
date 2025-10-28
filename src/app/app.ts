@@ -14,7 +14,7 @@ import { Observable, interval, map } from 'rxjs';
 @Component({
   selector: 'app-root',
   standalone: true,
-  templateUrl: './app.component.html',
+  templateUrl: './app.html',
 })
 export class AppComponent implements OnInit {
   clickCount = signal(0);
